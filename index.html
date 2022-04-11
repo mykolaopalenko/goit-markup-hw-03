@@ -11,10 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
-    />
+    <link rel="stylesheet" href="./style/modern-normalize.css" />
     <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
@@ -51,48 +48,46 @@
       </div>
     </header>
     <main>
-      <section class="section about-border">
-        <div class="about">
-          <h1 class="about-text">Эффективные решения для вашего бизнеса</h1>
-          <button class="about-button" type="button">Заказать услугу</button>
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero-text">Эффективные решения для вашего бизнеса</h1>
+          <button class="hero-button" type="button">Заказать услугу</button>
         </div>
       </section>
 
       <section class="section">
         <div class="container">
-          <div class="todo">
-            <h2 class="hide">Ниши преимущества</h2>
-            <ul class="info">
-              <li class="info-block">
-                <h3 class="info-name">Внимание к деталям</h3>
-                <p class="info-title">
-                  Идейные соображения, а также начало повседневной работы по
-                  формированию позиции.
-                </p>
-              </li>
-              <li class="info-block">
-                <h3 class="info-name">Пунктуальность</h3>
-                <p class="info-title">
-                  Задача организации, в особенности же рамки и место обучения
-                  кадров влечет за собой.
-                </p>
-              </li>
-              <li class="info-block">
-                <h3 class="info-name">Планирование</h3>
-                <p class="info-title">
-                  Равным образом консультация с широким активом в значительной
-                  степени обуславливает.
-                </p>
-              </li>
-              <li class="info-block">
-                <h3 class="info-name">Современные технологии</h3>
-                <p class="info-title">
-                  Значимость этих проблем настолько очевидна, что реализация
-                  плановых заданий.
-                </p>
-              </li>
-            </ul>
-          </div>
+          <h2 class="visually-hidden">Ниши преимущества</h2>
+          <ul class="info">
+            <li class="info-block">
+              <h3 class="info-name">Внимание к деталям</h3>
+              <p class="info-title">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li class="info-block">
+              <h3 class="info-name">Пунктуальность</h3>
+              <p class="info-title">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li class="info-block">
+              <h3 class="info-name">Планирование</h3>
+              <p class="info-title">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li class="info-block">
+              <h3 class="info-name">Современные технологии</h3>
+              <p class="info-title">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
         </div>
       </section>
 
@@ -101,7 +96,9 @@
           <div class="doing">
             <h2 class="doing-title">Чем мы занимаемся</h2>
             <ul class="doing_list">
-              <li><img width="370" src="./images/img1.jpg" alt="work pc" /></li>
+              <li>
+                <img width="370" src="./images/main1.jpg" alt="work pc" />
+              </li>
               <li>
                 <img width="370" src="./images/main2.jpg" alt="work phone" />
               </li>
@@ -124,8 +121,10 @@
                   src="./images/photo1.jpg"
                   alt="Product Designer"
                 />
-                <h3 class="name">Игорь Демьяненко</h3>
-                <p class="position">Product Designer</p>
+                <div class="team-info">
+                  <h3 class="name">Игорь Демьяненко</h3>
+                  <p class="position">Product Designer</p>
+                </div>
               </li>
               <li class="photo">
                 <img
@@ -133,18 +132,24 @@
                   src="./images/photo2.jpg"
                   alt="Frontend Developer"
                 />
-                <h3 class="name">Ольга Репина</h3>
-                <p class="position">Frontend Developer</p>
+                <div class="team-info">
+                  <h3 class="name">Ольга Репина</h3>
+                  <p class="position">Frontend Developer</p>
+                </div>
               </li>
               <li class="photo">
                 <img width="270" src="./images/photo3.jpg" alt="Marketing" />
-                <h3 class="name">Николай Тарасов</h3>
-                <p class="position">Marketing</p>
+                <div class="team-info">
+                  <h3 class="name">Николай Тарасов</h3>
+                  <p class="position">Marketing</p>
+                </div>
               </li>
               <li class="photo">
                 <img width="270" src="./images/photo4.jpg" alt="UI Designer" />
-                <h3 class="name">Михаил Ермаков</h3>
-                <p class="position">UI Designer</p>
+                <div class="team-info">
+                  <h3 class="name">Михаил Ермаков</h3>
+                  <p class="position">UI Designer</p>
+                </div>
               </li>
             </ul>
           </div>
